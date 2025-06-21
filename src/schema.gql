@@ -1,0 +1,15 @@
+type asset {
+  symbol: String!
+  name: String!
+  price: Float!
+  change: Float!
+  volume: Float!
+  avgVolume: Float!
+  marketCap: Float!
+  PERatio: Float!
+  week52: Float!
+}
+
+type Query {
+  asset: [asset!]!
+}
