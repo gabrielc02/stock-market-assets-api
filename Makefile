@@ -8,7 +8,7 @@ venv:
 	python -m venv venv
 
 activatevenv:
-	env/Script/activate
+	env/Scripts/activate
 
 test:
 	pytest
